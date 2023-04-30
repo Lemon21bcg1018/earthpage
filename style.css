@@ -1,0 +1,45 @@
+.container
+{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.a1
+{
+    width: 50vw;
+    height: 100vh;
+}
+
+.container
+{
+    background-color: black;
+    background-image: url(/bg.png);
+}
+
+.a2
+{
+    margin-top: 250px;
+    width: 50vw;
+    height: 100vh;
+}
+
+h1
+{
+    color: white;
+    font-size: 100px;
+}
+
+p
+{
+    font-size: 20px;
+    width: 80%;
+    color: white;
+
+}
+a
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
