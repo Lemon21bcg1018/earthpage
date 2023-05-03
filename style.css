@@ -43,3 +43,15 @@ a
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
+
+
+
+.enter
+{
+    display: block;
+    position: absolute;
+    margin-top: 50%;
+    color: white;
+    font-size: 40px;
+
+}
