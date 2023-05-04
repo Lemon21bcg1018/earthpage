@@ -1,3 +1,8 @@
+body
+{
+    background-image: url(/photo-1534796636912-3b95b3ab5986.jpg);
+}
+
 .container
 {
     width: 100vw;
@@ -14,7 +19,7 @@
 .container
 {
     background-color: black;
-    background-image: url(/bg.png);
+    background-image: url(/photo-1534796636912-3b95b3ab5986.jpg);
 }
 
 .a2
