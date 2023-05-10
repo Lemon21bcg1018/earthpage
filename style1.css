@@ -1,5 +1,64 @@
-button:active
-{
+button:active {
     transition-duration: 1s;
     transform: scale(1.1);
+}
+
+.enter {
+    display: block;
+
+    position: absolute;
+    margin-top: 200px;
+    margin-left: calc(50% - 100px);
+    color: white;
+    font-size: 20px;
+    height: 100vh;
+    width: 100vw;
+}
+button {
+    display: block;
+    border: 0;
+    background: none;
+    color: white;
+    outline: none;
+    font-size: 40px;
+    background: Transparent;
+}
+
+    button img
+    {
+        margin-left:-140px
+    }
+
+
+
+@media only screen and (max-width: 600px) {
+
+    #e1d {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: calc(50% - 100px);
+        color: white;
+        font-size: 20px;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .enter {
+    display: none;
+    }
+
+    button {
+        display: block;
+        border: 0;
+        background: none;
+        color: white;
+        outline: none;
+        font-size: 40px;
+        background: Transparent;
+    }
+    button img
+    {
+        margin-left:-140px
+    }
+
 }
