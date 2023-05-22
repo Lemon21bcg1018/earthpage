@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: starwar;
+    src: url(fonts/Starjedi.ttf);
+}
 body
 {
     background-image: url(photo-1534796636912-3b95b3ab5986.jpg);
@@ -35,6 +38,8 @@ h1
 {
     color: white;
     font-size: 100px;
+    font-family: starwar;
+    font-weight: 100;
 }
 
 p
@@ -61,6 +66,12 @@ width: 100vw;
 }
 
 @media only screen and (max-width: 600px) {
+    audio
+    {
+        display: none;
+    }
+    
+    
     body
     {
         background-image: url(photo-1534796636912-3b95b3ab5986.jpg);
@@ -131,3 +142,4 @@ width: 100vw;
     }
 
   }
+
